@@ -1,2 +1,10 @@
+# Núcleo
+numpy>=1.24
 opencv-contrib-python>=4.8
-numpy
+# Interfaz de escritorio
+PySide6>=6.6
+# Eliminación automática de fondo (local, sin internet tras descargar el modelo)
+rembg>=2.0.50
+onnxruntime>=1.16
+# FFmpeg incluido (se usa si no hay ffmpeg instalado en el sistema)
+imageio-ffmpeg>=0.4.9
